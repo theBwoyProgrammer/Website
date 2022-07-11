@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+body {
+    color: whitesmoke;
+}
+
+.navbar-brand {
+    font-family: 'Titan One', cursive;
+}
+
+.home-page {
+    width: 100%;
+  min-height: 100vh;
+ background-image: url(./Assets/buddha.jpg);
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-position: 40% 60%;
+ /* background-position-y: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 4rem;
+}
+
+.header {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2rem;
+    font-weight: 3rem;
+    padding-bottom: 2rem;
+    background: -webkit-linear-gradient(rgb(83, 66, 66), rgb(67, 39, 79));
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 2rem;
+    color: #242a31;
+}
+
+.home-social {
+    display: flex;
+    flex-direction: row;
+    width: 23%;
+    background-color: #fb885e;
+    gap: 2rem;
+    border: #242a31 2px groove;
+}
+
+.divider {
+    border: #242a31 2px ridge;
+    width: 100%;
+    align-items: center;
+}
+
+.about-page {
+    width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5rem;
+  line-height: 4rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.about-wrap {
+    border: #fb885e 3px solid;
+    padding: 2rem;
+    background-color: #CCE2D6;
+}
+
+.about-header {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2rem;
+    font-weight: 3rem;
+    padding-bottom: 2rem;
+    background: -webkit-linear-gradient(rgb(83, 66, 66), rgb(67, 39, 79));
+    background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 2rem;
+    color: #242a31;
+}
